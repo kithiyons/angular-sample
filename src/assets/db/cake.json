@@ -1,0 +1,88 @@
+{
+  "Cakes": [
+    {
+      "cakeName": "Chocolate Cake",
+      "id": 1,
+      "items":[
+          {
+            "cake":"choco1",
+            "id":1,
+            "rate":1000  
+          },
+          {
+            "cake":"choco2",
+            "id":2,
+            "rate":2000 
+          },
+          {
+            "cake":"choco3",
+            "id":3,
+            "rate":500 
+          },
+          {
+            "cake":"choco4",
+            "id":4,
+            "rate":1200  
+          },
+          {
+            "cake":"choco5",
+            "id":5,
+            "rate":900  
+          },
+          {
+            "cake":"choco6",
+            "id":6,
+            "rate":600  
+          },
+          {
+            "cake":"choco7",
+            "id":7,
+            "rate":1000  
+          }
+      ]
+
+    },
+    {
+      "cakeName": "Starwberry Cake",
+      "id": 2,
+      "items":[
+          {
+            "cake":"straw1",
+            "id":1  
+          },
+          {
+            "cake":"straw2",
+            "id":2  
+          } 
+      ]
+    },
+    {
+      "cakeName": "Ice Cake",
+      "id": 3,
+      "items":[
+          {
+            "cake":"ice1",
+            "id":1  
+          },
+          {
+            "cake":"ice2",
+            "id":2  
+          } 
+      ]
+    },
+    {
+      "cakeName": "Red Velvet",
+      "id": 4,
+      "items":[
+          {
+            "cake":"red1",
+            "id":1  
+          },
+          {
+            "cake":"red2",
+            "id":2  
+          } 
+      ]
+    }
+  ]
+}

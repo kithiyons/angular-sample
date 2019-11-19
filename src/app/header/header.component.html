@@ -1,0 +1,17 @@
+<div class="row header" style="background-color:navajowhite">
+  <div class="col-md-6">
+
+  </div>
+  <div class="col-md-6">
+    <ul style="float:right">
+      <li style="display:inline;">
+        <span class="fa fa-user">{{username}}</span>
+        <span><a *ngIf="!username" class="" routerLink="/login">Login/Register</a></span>
+        <span><a *ngIf="username" class="" routerLink="/login"(click)="logout()">Logout</a></span>
+      </li>
+      <li style="display:inline;">
+        <span class="fa fa-shopping-cart" *ngIf="username"><a  class="" routerLink="/mycart">My cart</a></span>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<p>List
+</p>
+<ul class="lists" style="list-style-type: none">
+    <li *ngFor="let item of lists.items" class="py-2">
+      <!-- <a routerLink="/detail/{{hero.id}}"></a> -->
+      <div>
+          <span class="badge">{{item.id}}</span>{{item.cake}}
+      </div>
+      <div>
+          <img class="cakes-style" src="../assets/img/{{item.cake}}.jpg"/><button (click)="addToCart(item)">Add to cart</button><span class="badge">{{item.rate}}</span>
+      </div>
+    </li>
+  </ul>

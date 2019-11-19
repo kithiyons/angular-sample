@@ -1,0 +1,26 @@
+textarea {
+    resize: none;
+    height:100px;
+}
+.product-details {
+    font-size:24px;   
+}
+.title {
+   color:#c50372;
+}
+.details {
+    font-size:14px;
+}
+.price {
+    font-size:24px;
+}
+.productImage {
+    width:50px;
+}
+.product-style{
+    heihgt:200px;
+    width:200px;
+}
+.style {
+    width:100%;
+}

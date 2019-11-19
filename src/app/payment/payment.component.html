@@ -1,0 +1,50 @@
+<div>
+  <form class="style" #checkOutForm="ngForm" class="was-validated" (ngSubmit)="onSubmit(checkOutForm)">
+    <div class="breadcrumb mt-4"><h6>Shipping Details</h6></div>
+    <div class="form-group">
+      <label>Address</label>
+      <textarea class="form-control col-4" cols="50" placeholder="Enter Shipping Address" name="address" required ngModel></textarea>
+      <small class="form-text text-muted invalid-feedback">Shipping Address is required</small>
+    </div>
+    <div class="breadcrumb"><h6>My Cart</h6></div>
+    <div class="form-group">
+      <div class="row border-bottom product-details">
+          <div class="col-8">
+              <div>Product Details</div>
+          </div>
+          <div class="col-2">    
+              <div>price</div>
+          </div>
+          <div class="col-2 text-right">    
+              <div>Quantity</div>
+          </div>
+      </div>
+      <div class="row mt-2">
+          <div class="col-8">
+              <h5 class="title">{{products.itemName}}</h5>
+              <img class="product-style" src="../assets/img/{{products.itemName}}.jpg" class="productImage pull-left pr-2"/>
+              <div class="details">{{products.parentId}}</div>
+          </div>
+          <div class="col-2">    
+              <div class="price">₹ {{products.itemId}}</div>
+          </div>
+          <div class="col-2">    
+              <div class="row">
+                  <div class="form-group col-6 offset-6">
+                      <input type="number" min="1" max="10" class="form-control" [(ngModel)]="qty" placeholder="" name="qty" required ngModel/>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row mt-2 pt-2 border-top">
+          <h4 class="col-12 text-right">Total price: <strong>₹</strong> {{ qty * products.itemId }}</h4>
+      </div>
+      <div class="row mt-4">
+          <div class="col-12 text-right">
+              <button class="btn btn-primary" routerLink="/orderComplete" [disabled]="!checkOutForm.valid">Checkout & Place Order</button>
+          </div>
+        </div>
+    </div>
+</form>
+</div>
+  

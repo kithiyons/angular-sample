@@ -1,0 +1,15 @@
+<p>
+  Cake Types
+</p>
+<ul class="cakes" style="list-style-type: none">
+    <li *ngFor="let cake of cakes" class="py-2">
+      <!-- <a routerLink="/detail/{{hero.id}}"></a> -->
+      <div>
+          <span class="badge">{{cake.id}}</span>
+          <a routerLink="/items/{{cake.id}}">{{cake.cakeName}}</a>
+      </div>
+      <div>
+          <img class="cakes-style" src="../assets/img/{{cake.cakeName}}.jpg"/>
+      </div>
+    </li>
+  </ul>

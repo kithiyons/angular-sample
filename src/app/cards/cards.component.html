@@ -1,0 +1,14 @@
+<p>
+    Cards
+  </p>
+  <ul class="cards" style="list-style-type: none">
+      <li *ngFor="let card of cards" class="py-2">
+        <!-- <a routerLink="/detail/{{hero.id}}"></a> -->
+        <div>
+            <span class="badge">{{card.id}}</span><a routerLink="/card-items">{{card.title}}</a>
+        </div>
+        <div>
+            <img class="card-style" src="../assets/img/{{card.cardName}}.jpg"/>
+        </div>
+      </li>
+    </ul>

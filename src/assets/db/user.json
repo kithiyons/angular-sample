@@ -1,0 +1,102 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "first_name": "Sebastian",
+      "last_name": "Eschweiler",
+      "username": "sebastian@codingthesmartway.com",
+      "password": "12345"
+    },
+    {
+      "id": 2,
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "username": "steve@codingthesmartway.com",
+      "password": "12345658"
+    },
+    {
+      "id": 3,
+      "first_name": "Ann",
+      "last_name": "Smith",
+      "username": "ann@codingthesmartway.com",
+      "password": "1235555"
+    },
+    {
+      "first_name": "fjyj",
+      "last_name": "df",
+      "username": "fgfd@d.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "first_name": "kkkki",
+      "last_name": "e",
+      "username": "dgsg2g",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "first_name": "karthi",
+      "last_name": "r",
+      "username": "karthi@gmail.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "first_name": "kithi",
+      "last_name": "i",
+      "username": "kithiyonsi",
+      "password": "12345",
+      "id": 7
+    },
+    {
+      "first_name": "clement",
+      "last_name": "a",
+      "username": "clem",
+      "password": "12345",
+      "id": 8
+    },
+    {
+      "first_name": "sandeep",
+      "last_name": "k",
+      "username": "sandy",
+      "password": "1234",
+      "id": 9
+    },
+    {
+      "first_name": "mmd",
+      "last_name": "gh",
+      "username": "kim",
+      "password": "kim",
+      "id": 10
+    },
+    {
+      "first_name": "kavi",
+      "last_name": "rajan",
+      "username": "kavarajan",
+      "password": "12345",
+      "id": 11
+    },
+    {
+      "first_name": "jivi",
+      "last_name": "s",
+      "username": "jivis",
+      "password": "12345",
+      "id": 12
+    },
+    {
+      "first_name": "viji",
+      "last_name": "s",
+      "username": "vijis",
+      "password": "12345",
+      "id": 13
+    },
+    {
+      "first_name": "afasf",
+      "last_name": "f",
+      "username": "ssss",
+      "password": "12345",
+      "id": 14
+    }
+  ]
+}

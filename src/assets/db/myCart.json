@@ -1,0 +1,22 @@
+{
+  "MyCart": [
+    {
+      "parentId": "2",
+      "itemName": "straw1",
+      "itemId": 1,
+      "id": 3
+    },
+    {
+      "parentId": "1",
+      "itemName": "choco1",
+      "itemId": 1,
+      "id": 6
+    },
+    {
+      "parentId": "2",
+      "itemName": "straw1",
+      "itemId": 1,
+      "id": 11
+    }
+  ]
+}

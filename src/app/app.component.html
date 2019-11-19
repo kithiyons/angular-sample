@@ -1,0 +1,21 @@
+<div class="container" style="background-color:currentColor;">
+<h1 style="text-align:center">{{title}}</h1>
+<app-header></app-header>
+<div class="row" style="background-color:black">
+  <nav>
+    <a class="nav-link active" routerLink="/dashboard">Dashboard</a>
+    <a class="nav-link" routerLink="/birthday">Birthday Gifts</a>
+    <a class="nav-link" routerLink="/cakes">Cakes</a>
+    <a class="nav-link" routerLink="/cards">Cards</a>
+    <a class="nav-link" routerLink="/anniversary">Anniversary Gifts</a>
+    <!-- <  a class="nav-link" routerLink="/users">UserList</a> -->
+    <a class="nav-link" routerLink="/product">ProductList</a>
+  </nav>
+</div>
+<div style="height:400px; overflow-y: auto;background-color: whitesmoke;" class="row">
+    <router-outlet style="width:100%"></router-outlet>
+</div>
+
+<footer class="row" style="background-color:navajowhite"><p>Contact information: <a href="mailto:someone@example.com">kkk@gmail.com</a></footer>
+</div>
+<!-- <app-messages></app-messages> -->
